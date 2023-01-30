@@ -97,6 +97,11 @@ p1 = Person('John Doe', age=25)
 p2 = Person('Jane Doe', age=25)
 
 print(p1 == p2)
+print(p1.__hash__())
+print(p2.__hash__())
 
 p2.name = 'John Doe'
 print(p1 == p2)
+
+print(p1.__hash__())
+print(p2.__hash__())

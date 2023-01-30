@@ -15,7 +15,6 @@ def gensq(N):
     for i in range(N):
         yield i ** 2
 
-
 for x in gensq(10): print(x, end=' : ')
 
 # comprehansion

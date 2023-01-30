@@ -19,7 +19,7 @@ def sqrt(num):
 if __name__ == "__main__":
     try:
         print(sqrt(9))
-        print(sqrt('a'))
+        #print(sqrt('a'))
         print(sqrt(-9))
     except NumTypeError as e:
         print(e)

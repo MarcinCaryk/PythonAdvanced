@@ -1,10 +1,2 @@
 
-DEBUG    2023-01-08 11:07:31 - debug message
-INFO     2023-01-08 11:07:31 - info message
-WARNING  2023-01-08 11:07:31 - warn message
-ERROR    2023-01-08 11:07:31 - error message
-CRITICAL 2023-01-08 11:07:31 - critical message
-NOTE     2023-01-08 11:07:31 - note message
-TRACE    2023-01-08 11:07:31 - trace message
-OK       2023-01-08 11:07:31 - ok message
-FAIL     2023-01-08 11:07:31 - fail message
+

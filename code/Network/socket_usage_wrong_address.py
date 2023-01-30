@@ -1,7 +1,7 @@
 import socket
 
-#server_addr = "www.google.com"
-server_addr = "a.non.existent.name"
+server_addr = "www.google.com"
+#server_addr = "a.non.existent.name"
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((server_addr, 80))
 sock.connect((server_addr, 11111))

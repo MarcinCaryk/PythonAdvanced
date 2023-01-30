@@ -12,9 +12,9 @@ def gen_primes(N):
 
 
 print(type(gen_primes(100)))
-print(gen_primes(10))
-print(*gen_primes(10))
-print([*gen_primes(10)])
+print(gen_primes(100))
+print(*gen_primes(100))
+print([*gen_primes(100)])
 
 a = [x for x in gen_primes(10)]
 print(a)

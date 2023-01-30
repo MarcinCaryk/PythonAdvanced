@@ -12,7 +12,7 @@ class MyEncoder(json.JSONEncoder):
         if isinstance(w, Who):
             return w.__dict__
         else:
-            return super().default(self, z)
+            return super().default(self, w)
 
 
 some_man = Who('John Doe', 42)
